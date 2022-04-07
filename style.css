@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;
-    gap: 100px;
+    gap: 200px;
     justify-content: center;
 }
 
@@ -61,21 +61,54 @@ ul {
 a {
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .info-container{
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 56px;
+    text-align: center;
 }
 
-.random-info{
-    text-align: center;
+.info-container img{
+    max-width: 150px;
+    max-height: 100px;
+    margin-bottom: 16px;
 }
 
 .title{
     font-weight: bolder;
     font-size: 36px;
     margin: 32px;
+    text-align: center;
+}
+
+.random-info{
+    margin-bottom: 100px;
+}
+
+.info{
+    max-width: 150px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 30px;
+    font-style: italic;
+    max-width: 700px;
+}
+
+.quote-name{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 500px;
 }
