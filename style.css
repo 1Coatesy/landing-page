@@ -6,7 +6,12 @@
     flex-direction: column;
 }
 
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .header-container {
+
     height: 72px;
     background-color: #1f2937;
     color: white;
@@ -27,7 +32,7 @@
     justify-content: center;
 }
 
-button{
+ button{
     margin-top: 6px;
     background-color: #3882f6;
     border: none;
@@ -122,10 +127,10 @@ a {
 }
 .action-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #3882f6;
     border-radius: 12px;
-    padding: 24px;
+    padding: 16px;
     width: 1000px;
 }
 
@@ -140,6 +145,15 @@ a {
     display: flex;
     margin-right: 200px;
     border: 2px solid black;
+    max-width: 90px;
+    justify-content: center;
+    align-self: flex-end;
+    border-color: white;
+}
+
+.action-text {
+    margin-top: 24px;
+    font-weight: bold;
 }
 
 .footer-container{
